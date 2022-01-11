@@ -1,0 +1,19 @@
+Package: Rstats
+Title: Web R for Introductory Statistics
+Version: 0.1000
+Authors@R: person('Xuemao', 'Zhang', email = 'xzhang2@esu.edu', role = c('cre', 'aut'))
+Description: It is an R Shiny App for introductory statistics. Reproducible R code will be produced.
+License: MIT + file LICENSE
+URL: https://github.com/esumath/Rstats
+Imports: BSDA, car, config (>= 0.3.1), datarium, dplyr, DT, EnvStats,
+        formatR, ggplot2, golem (>= 0.3.1), markdown, methods,
+        processx, rclipboard, rhandsontable, rstatix, shiny (>= 1.6.0),
+        shinyAce, shinyjs, shinymeta, shinythemes, utils, waiter
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2022-01-11 20:09:59 UTC; xzhang2
+Author: Xuemao Zhang [cre, aut]
+Maintainer: Xuemao Zhang <xzhang2@esu.edu>
