@@ -27,20 +27,11 @@ be adopted by more undergraduate universities. Please contact me
 **<xzhang2@esu.edu>** if you have any suggestions or ideas to improve
 this web app.
 
-## Installation
-
-Currently, Rstats is not available on CRAN, but can be installed
-directly from github using the **devtools** package.
-
-    if (!require("devtools")) install.packages("devtools")
-    devtools::install_github("esumath/Rstats")
 
 ## Usage
 
-Use the following code to run the app.
-
-    pkgload::load_all()
-    Rstats::run_app()
+Download this repository and then open the app.R file using 
+[Rstudio](https://www.rstudio.com/products/rstudio/) and click **Run App**
 
 ## Code of Conduct
 
