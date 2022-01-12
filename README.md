@@ -31,7 +31,7 @@ this web app.
 ## Usage
 
 Download this repository and then open the app.R file using 
-[Rstudio](https://www.rstudio.com/products/rstudio/) and click **Run App**
+[Rstudio](https://www.rstudio.com/products/rstudio/) and click **Run App**.
 
 ## Code of Conduct
 
