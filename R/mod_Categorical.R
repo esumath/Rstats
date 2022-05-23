@@ -312,7 +312,7 @@ observe({
                   value = paste(code(), collapse = "\n"))
 }) 
 output$clip <- renderUI({
-  rclipButton("clipbtn", "Copy-R-code-to-clipboard", input$code_categorical, icon("clipboard", class = "btn btn-success"))
+  rclipButton("clipbtn", "Copy-R-code-to-clipboard", input$code_categorical, icon=icon("clipboard", class = "btn btn-success"))
 })
 
   })
