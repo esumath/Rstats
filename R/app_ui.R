@@ -12,8 +12,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     
     # Your application UI logic 
-    navbarPage("Rstats", theme = 
-                 shinythemes::shinytheme("united"),
+    navbarPage("Rstats", #theme = shinythemes::shinytheme("united"),
+               theme = bs_theme(version = version_default(), bootswatch = "united", font_scale = 1.1),
                navbarMenu("Distributions", 
                           tabPanel("Probability Calculation",
                                    mod_Probability_Calculation_ui("Probability_Calculation_ui_1")
