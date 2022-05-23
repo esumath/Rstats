@@ -1,6 +1,6 @@
 #library(config)
 #library(golem)
-requiredPackages = c('pkgload', 'markdown', 'BSDA', 'car', 'datarium', 'dplyr', 'DT', 'EnvStats', 'formatR', 'ggplot2', 'methods', 'rclipboard', 'rhandsontable', 'rstatix', 'shiny', 'shinyAce', 'shinyjs', 'shinymeta', 'shinythemes', 'utils', 'waiter')
+requiredPackages = c('pkgload', 'markdown', 'BSDA', 'car', 'datarium', 'dplyr', 'DT', 'EnvStats', 'formatR', 'ggplot2', 'methods', 'rclipboard', 'rhandsontable', 'rstatix', 'shiny', 'shinyAce', 'shinyjs', 'shinymeta', 'bslib', 'shinythemes', 'utils', 'waiter')
 for(p in requiredPackages)
 {
 if(!require(p,character.only = TRUE)) install.packages(p)
