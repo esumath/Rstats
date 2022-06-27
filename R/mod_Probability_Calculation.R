@@ -677,7 +677,7 @@ interpolate3(~(w=x2), x2=as.numeric(sapply( unlist(strsplit(input$weights,",")),
     cat("Population variance:", sigma2)
     sigma=sqrt(sigma2)
     cat("Population standard deviation:", sigma)
-    s2=sum((x-mu)^2*w)/(sum(x)-1)
+    s2=sum((x-mu)^2*w)/(sum(w)-1)
     cat("Sample variance:", s2)
     s=sqrt(s2)
     cat("Sample standard deviation:", s)
